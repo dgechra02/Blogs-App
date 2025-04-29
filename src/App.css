@@ -1,0 +1,10 @@
+.unlikedSvg {
+    width: 2rem;
+    fill: none;
+    stroke: #99A1AF;
+}
+.likedSvg {
+    width: 2rem;
+    fill: red;
+    stroke: red;
+}
