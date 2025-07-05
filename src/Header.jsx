@@ -39,13 +39,13 @@ export default function Header({
           <button
             onClick={handleSearch}
             type="submit"
-            className="font-semibold rounded-3xl bg-[#AD46FF] px-3 lg:px-4 xl:px-7 h-8 lg:h-9"
+            className="font-semibold rounded-3xl bg-[#AD46FF] px-3 lg:px-4 xl:px-7 h-8 lg:h-9 cursor-pointer"
           >
             Search
           </button>
           <button
             onClick={handleAdd}
-            className="rounded-xl bg-red-500 hover:bg-red-600 md:h-8 lg:h-9 px-2 xl:px-4 lg:py-1 xl:py-1.5 flex items-center gap-1"
+            className="rounded-xl bg-red-500 hover:bg-red-600 md:h-8 lg:h-9 px-2 xl:px-4 lg:py-1 xl:py-1.5 flex items-center gap-1 cursor-pointer"
           >
             <svg
               className="stroke-[#785DC8] md:w-5 lg:w-7"
@@ -73,7 +73,7 @@ export default function Header({
         <div className="add-hamburger flex md:hidden gap-1">
           <button
             onClick={handleAdd}
-            className="rounded-xl bg-red-500 hover:bg-red-600 px-2 h-9 flex items-center gap-1"
+            className="rounded-xl bg-red-500 hover:bg-red-600 px-2 h-9 flex items-center gap-1 cursor-pointer"
           >
             <svg
               className="stroke-[#785DC8] w-5"
@@ -95,7 +95,7 @@ export default function Header({
                 ></path>
               </g>
             </svg>
-            <span className="font-bold ">Add Blog</span>
+            <span className="font-bold ">Blog</span>
           </button>
           <img
             onClick={(e) => {
@@ -115,7 +115,7 @@ export default function Header({
                 setShowCards(e.target.value);
                 setHamburgerOpen(!hamburgerOpen);
               }}
-              className="bg-[#1E2939] px-3 lg:px-6 xl:px-8 py-2 lg:py-3 xl:py-4 border border-[#4A5565] rounded-2xl lg:rounded-3xl xl:rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
+              className="cursor-pointer bg-[#1E2939] px-3 lg:px-6 xl:px-8 py-2 lg:py-3 xl:py-4 border border-[#4A5565] rounded-2xl lg:rounded-3xl xl:rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
             >
               All
             </button>
@@ -181,35 +181,35 @@ export default function Header({
         <button
           value="All"
           onClick={(e) => setShowCards(e.target.value)}
-          className="bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
+          className="cursor-pointer bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
         >
           All
         </button>
         <button
           value="Technology"
           onClick={(e) => setShowCards(e.target.value)}
-          className="bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
+          className="cursor-pointer bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
         >
           Technology
         </button>
         <button
           value="Travel"
           onClick={(e) => setShowCards(e.target.value)}
-          className="bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
+          className="cursor-pointer bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
         >
           Travel
         </button>
         <button
           value="Food"
           onClick={(e) => setShowCards(e.target.value)}
-          className="bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
+          className="cursor-pointer bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
         >
           Food
         </button>
         <button
           value="LifeStyle"
           onClick={(e) => setShowCards(e.target.value)}
-          className="bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
+          className="cursor-pointer bg-[#1E2939] px-3 lg:px-4 xl:px-6 py-2 lg:py-2 xl:py-2.5 border border-[#4A5565] rounded-4xl hover:bg-[#AD46FF] focus:bg-[#AD46FF] leading-none"
         >
           LifeStyle
         </button>

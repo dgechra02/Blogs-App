@@ -66,7 +66,7 @@ export default function BlogModal({
     setShowAddBlog(false);
   }
   return (
-    <div className="fixed w-[330px] sm:w-[450px] h-fit px-2 py-5 sm:px-5 sm:py-5 m-2 bg-[#101828] flex flex-col gap-3.5 items-center rounded-3xl shadow-[1px_1px_5px_1px_#AD46FF]">
+    <div className="fixed w-[330px] sm:w-[400px] h-fit px-2 py-5 sm:px-5 sm:py-5 m-2 bg-[#101828] flex flex-col gap-3.5 items-center rounded-3xl shadow-[1px_1px_5px_1px_#AD46FF]">
       <button
         onClick={handleRemove}
         className="cancleAdd absolute top-4 right-4 text-white "

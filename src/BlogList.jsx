@@ -43,7 +43,7 @@ export default function BlogList({
           );
         })
       ) : (
-        <span className="w-full flex justify-center items-center text-lg sm:text-2xl md:text-2xl text-white">No blog found or Listed!!!</span>
+        <span className="w-full flex justify-center items-center text-lg sm:text-2xl md:text-2xl text-white">No blog found or Listed!</span>
       )}
     </div>
   );
